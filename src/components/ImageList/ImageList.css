@@ -1,0 +1,14 @@
+.img-wrapper {
+    position: relative;
+}
+
+.img-wrapper .hover-button {
+    display: None;
+}
+
+.img-wrapper:hover .hover-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}

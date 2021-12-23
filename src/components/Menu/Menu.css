@@ -1,0 +1,19 @@
+.menu-item {
+    position: relative;
+}
+
+.menu-item .hover-button {
+    display: None;
+}
+
+.menu-item:hover .separator {
+    flex-grow: 1;
+    border-bottom: dotted 2px black;
+}
+
+.menu-item:hover .hover-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}
